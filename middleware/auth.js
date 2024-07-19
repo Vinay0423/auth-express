@@ -27,7 +27,6 @@ let id=  decodedToken?.id
  //if user is present set it to request object
 
  req.user=user
-
  next()
 
 }

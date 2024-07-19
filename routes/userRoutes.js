@@ -15,4 +15,5 @@ userRoutes.get("/home",auth,(req,res,next)=> {
     res.send(`Welcome  ${req.user.name}`)
 })
 
+
 export default userRoutes;
